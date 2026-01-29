@@ -1,0 +1,29 @@
+# Core Dependencies
+streamlit==1.31.0
+python-dotenv==1.0.0
+
+# Web Scraping & Content Extraction
+beautifulsoup4==4.12.3
+requests==2.31.0
+lxml==5.1.0
+trafilatura==1.8.0
+
+# LangChain Framework
+langchain==0.1.10
+langchain-community==0.0.24
+langchain-openai==0.0.8
+
+# Vector Database - ChromaDB
+chromadb==0.4.24
+
+# Embeddings
+sentence-transformers==2.3.1
+openai==1.12.0
+
+# Text Processing
+tiktoken==0.6.0
+nltk==3.8.1
+
+# Utilities
+pydantic==2.6.1
+numpy==1.26.4

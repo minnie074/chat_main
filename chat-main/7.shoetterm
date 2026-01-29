@@ -1,0 +1,18 @@
+7. Short-Term Memory (Conversation Context)
+● Implement short-term conversational memory
+● Memory should:
+○ Maintain context across multiple user queries
+○ Be limited to the current session only
+
+
+answer:
+
+1. Enable short-term conversational memory so the chatbot can recall context during a session.
+
+2. Maintain context across multiple user queries (e.g., if the user asks a follow-up question, the chatbot remembers the previous topic).
+
+3. Limit memory to the current session only — once the session ends, all stored context is cleared.
+
+4. Do not persist memory across sessions (no long-term storage).
+
+5. Use context chaining: each new query is interpreted in relation to earlier queries within the same session.

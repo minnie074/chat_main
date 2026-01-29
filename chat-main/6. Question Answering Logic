@@ -1,0 +1,20 @@
+● Users can ask natural language questions
+● If the answer is not available on the website, the chatbot must respond exactly
+with:
+“The answer is not available on the provided website.”
+
+answer:
+
+Users ask questions in natural language** (no need for structured queries).  
+Chatbot searches the provided website** for the relevant answer.  
+If the answer is found** → chatbot responds with the correct information from the site.  
+If the answer is not found** → chatbot must reply exactly with:
+
+
+  ```
+  The answer is not available on the provided website.
+  ```  
+
+
+No extra text, explanation, or variation** is allowed in this fallback response.  
+consistency, accuracy, and clarity** in chatbot replies.  
